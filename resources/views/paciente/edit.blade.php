@@ -1,4 +1,4 @@
-Editar Registro de Mascota
+
 
 <form action="{{ url('/paciente/'. $paciente->id) }}" method="POST">
     @csrf
