@@ -39,7 +39,6 @@
                     <th></th>
                     <th >Enfermedad</th>
                     <th></th>
-  
 
                     <th><a style="float:justify" href="{{ url('paciente/create') }}" class="btn btn-info">Nuevo Paciente</a></th>
                 </tr>
@@ -108,5 +107,12 @@
     tr.mi-clase{
         border-bottom: 2px solid #7877e6;
         
+    }
+    body {
+    height: 600px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/262/479/non_2x/white-and-blue-tone-abstract-background-backdrop-for-presentation-design-for-website-concept-of-beauty-and-health-business-brochure-free-photo.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
     }
 </style>

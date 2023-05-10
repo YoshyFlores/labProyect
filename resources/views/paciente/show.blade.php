@@ -47,7 +47,7 @@
     <table class=" table " style=" border: 1px solid #7877e6; text-align:center"">
                 <thead >
                 <tr class = "mi-clase">
-                <h4>Detalles Paciente</h4><br/><br/><br/>
+                <h4>Detalles del paciente</h4><br/><br/><br/>
                 <td ><h6># {{ $paciente->id }}</h6></td><br/></tr>
                 <tr><td><h6>Nombre: {{$paciente->nombre}}</h6></td><br/></tr>
                 <tr><td><h6>Edad: {{$paciente->edad}}</h6></td></tr>
@@ -79,7 +79,13 @@
     left: 20%;
     
     }
-
+    body {
+    height: 600px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/262/479/non_2x/white-and-blue-tone-abstract-background-backdrop-for-presentation-design-for-website-concept-of-beauty-and-health-business-brochure-free-photo.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    }
 
 </style>
 <style>

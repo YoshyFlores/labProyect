@@ -12,9 +12,6 @@
 
         <div class="container">
             <a class="navbar-brand" href="{{URL::to('paciente')}}">{{ __('Pacientes') }}</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>   
             </div>
             </div>
         </div>
@@ -65,5 +62,11 @@
         position: absolute;
         top: 5%;
         left: 30%;}
-
+        body {
+        height: 600px;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/006/262/479/non_2x/white-and-blue-tone-abstract-background-backdrop-for-presentation-design-for-website-concept-of-beauty-and-health-business-brochure-free-photo.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
     </style>
